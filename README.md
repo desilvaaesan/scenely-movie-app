@@ -1,4 +1,4 @@
-# 🎬 Movie App
+# 🎬 Scenely - Movie App
 
 A modern movie discovery platform built with **React.js**, **Appwrite**, and **Tailwind CSS**, powered by the **TMDB API**. Browse trending titles, search your favorite movies, and enjoy a responsive, sleek user experience.
 
