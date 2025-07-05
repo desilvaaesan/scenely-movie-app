@@ -1,12 +1,59 @@
-# React + Vite
+# 🎬 Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern movie discovery platform built with **React.js**, **Appwrite**, and **Tailwind CSS**, powered by the **TMDB API**. Browse trending titles, search your favorite movies, and enjoy a responsive, sleek user experience.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔍 **Search Movies** – Find any movie with a quick and intuitive search.
+- 📈 **Trending Movies** – See what’s popular with a dynamic trending algorithm.
+- 🎨 **Modern UI/UX** – Clean, elegant, and intuitive design with smooth transitions.
+- 📱 **Fully Responsive** – Works flawlessly on mobile, tablet, and desktop.
+- 🧱 **Scalable Codebase** – Built with reusable components and clear architecture for maintainability.
+- ⚡ **Fast Performance** – Optimized with Vite and modern frontend tooling.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- **React.js**  
+  A JavaScript library developed by Meta for building reusable UI components and fast single-page applications (SPAs) with virtual DOM for enhanced performance.
+
+- **Tailwind CSS**  
+  A utility-first CSS framework enabling rapid, responsive UI development without writing custom CSS.
+
+- **React-use**  
+  A collection of essential hooks that simplify state management, lifecycle events, and side effects in React apps.
+
+- **Vite**  
+  A next-gen frontend build tool with lightning-fast development, hot module replacement (HMR), and optimized production builds.
+
+### Backend
+
+- **Appwrite**  
+  An open-source Backend-as-a-Service (BaaS) providing robust APIs for:
+  - 🗃️ Databases
+  - 📦 Storage
+  - 🔄 Real-time updates
+
+### APIs
+
+- **TMDB API**  
+  Integration with The Movie Database (TMDB) for fetching live movie data, posters, ratings, and metadata.
+
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/desilvaaesan/scenely-movie-app.git
+
+# Navigate into the project directory
+cd scenely
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
